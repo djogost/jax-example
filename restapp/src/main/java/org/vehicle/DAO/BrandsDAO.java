@@ -6,6 +6,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 import org.vehicle.model.Brand;
 
+//dao level
 public class BrandsDAO {
 
     SessionFactory factory = new Configuration()
